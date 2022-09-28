@@ -1,0 +1,236 @@
+@font-face {
+        font-family: "GildaDisplay-Regular.ttf";
+        src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+        font-family:
+                "MavenPro-VariableFont_wght";
+        src: url("../fonts/MavenPro-VariableFont_wght.ttf");
+}
+
+
+
+/** ==========================
+          HEADER
+============================== **/
+
+
+
+* {
+        margin: 0;
+        padding: 0;
+}
+
+
+header {
+
+        background-color: #333;
+        background-size: 100% auto;
+        background-size: contain;
+}
+
+header h1 {
+        font-family: "MavenPro-VariableFont_wght";
+        /* width: 1rem; */
+        margin-left: 2rem;
+        width: 2rem;
+        color: #cccccc;
+        font-size: 1rem;
+        letter-spacing: 0.3rem;
+}
+
+header article {
+
+        margin: 20rem 70rem;
+        padding: 1rem 0 5rem 0;
+        color: #ffffff;
+        width: 17rem;
+        height: 10rem;
+        border-radius: 0.3rem;
+        background-image: linear-gradient(220deg,
+                        #3dc8d5, #194894,
+                        #8507e1);
+}
+
+
+header article:hover {
+
+        background-image: linear-gradient(220deg, #8507e1,
+                        #194894, #3dc8d5);
+}
+
+header h2 {
+
+        font-family: "GildaDisplay-Regular.ttf";
+        font-size: 4rem;
+        text-align: center;
+
+}
+
+
+header p {
+
+        font-family: "MavenPro-VariableFont_wght";
+        font-size: 1rem;
+        padding: 3rem 1rem;
+
+
+}
+
+
+
+header nav ul li a:link {
+
+        color: #ffffff;
+        text-decoration: none;
+        font-family: "MavenPro-VariableFont_wght";
+        margin: 0 0 0 153em;
+        list-style-type: none;
+
+}
+
+
+
+/* header ul li {
+
+        list-style-type: none;
+        margin: 0.5em;
+        text-align: left;
+        color: #ffffff;
+} */
+
+
+
+/** ==============================
+          MAIN Sektion "Projects"
+================================== **/
+
+
+main .Stuff h1 {
+
+        font-family: "GildaDisplay-Regular.ttf";
+        padding: 20rem 2rem 0 54rem;
+        margin: 2rem;
+        font-size: 4rem;
+        font-style: bold;
+}
+
+
+main .Stuff {
+        background-image: url("../img/Projects.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+main .Stuff p {
+
+        font-family: "MavenPro-VariableFont_wght";
+        /* margin: 1rem 100rem 35rem 29rem; */
+        margin-top: 4rem;
+        margin-right: 56rem;
+        margin-bottom: 10rem;
+        margin-left: 56rem;
+        width: 29rem;
+        word-spacing: 0.5rem;
+        /* text-align: justify; */
+}
+
+main .Stuff p span {}
+
+
+
+/** ==============================
+          MAIN Sektion "Pferde"
+================================== **/
+
+
+main div .Pferde img {
+
+        border-radius: 2em;
+        width: 50vw;
+        height: 30vw;
+        margin-left: 35em;
+        margin-top: 20em;
+}
+
+main div .Pferde h1 {
+        font-family: "GildaDisplay-Regular.ttf";
+        font-size: 5em;
+        font-style: bold;
+        padding-left: 35rem;
+        padding-top: 4rem;
+
+}
+
+main div .Pferde p {
+        font-family: "MavenPro-VariableFont_wght";
+        font-size: 2rem;
+        padding-left: 35rem;
+        padding-bottom: 20rem;
+        padding-top: 2rem;
+}
+
+/** ==============================
+          MAIN Sektion "Traktor
+================================== **/
+
+
+main div .Traktor img {
+
+        border-radius: 2rem;
+        width: 50vw;
+        height: 30vw;
+        margin-left: 35rem;
+        margin-top: 20rem;
+}
+
+main div .Traktor h1 {
+        font-family: "GildaDisplay-Regular.ttf";
+        font-size: 5rem;
+        font-style: bold;
+        padding-left: 35rem;
+        padding-top: 4rem;
+
+}
+
+main div .Traktor p {
+        font-family: "MavenPro-VariableFont_wght";
+        font-size: 2rem;
+        padding-left: 35rem;
+        padding-bottom: 20rem;
+        padding-top: 2rem;
+}
+
+
+
+/** ==============================
+          MAIN Sektion "Frau"
+================================== **/
+
+
+main div .Frau img {
+
+        border-radius: 2rem;
+        width: 50vw;
+        height: 30vw;
+        margin-left: 35rem;
+        margin-top: 20rem;
+}
+
+main div .Frau h1 {
+        font-family: "GildaDisplay-Regular.ttf";
+        font-size: 5rem;
+        font-style: bold;
+        padding-left: 35rem;
+        padding-top: 4rem;
+
+}
+
+main div .Frau p {
+        font-family: "MavenPro-VariableFont_wght";
+        font-size: 2rem;
+        padding-left: 35rem;
+        padding-bottom: 10rem;
+        padding-top: 2rem;
+}
